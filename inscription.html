@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head><title> inscription </title>
+    </head>
+    <body>
+    <header>
+      <nav>
+        <a href="home.html" >home</a>
+        <a href="project.html"> Projets et tâches  </a>
+        <a href="employe.html"> Liste employés</a>
+        <a href="acceuil.html">Inscription</a>
+    </nav>
+<br>
+<hr>
+<section  align="center">
+    <br>
+    <br>
+
+    <img src="img1.jpg"  l height="100%" width="50%" alt=" baner" >
+
+</section>
+<form >
+    <table>
+<h1>inscription au site</h1>
+<tr>
+<td><label> nom :</label></td> 
+<td><input type="text"  name="nom" pattern="[A-Za-z]{2,}" title="Veuillez entrer un nom valide (lettres uniquement)" required>    
+    <br></td>
+</tr>
+<tr>
+    <td><label> Prenom :</label> </td>
+    <td><input type="text" name="Prenom" pattern="[A-Za-z]{2,}" title="Veuillez entrer un Prenom valide (lettres uniquement)" required>
+        <br></td>
+</tr>
+<tr>
+<td><label> Email :</label> </td>
+<td><input type="email" name="mail"  title="Veuillez entrer une adresse email valide" required>
+    <br></td>
+</tr>
+<tr>
+
+<td><label> Date de naissance :</label></td> 
+<td><input type="date" name="date"  required><br></td>
+</tr>
+<tr>
+<td><label> Telephone :</label></td> 
+<td><input type="tel" name="Telephone" pattern="[0-9]{8}" title="Veuillez entrer un numéro de téléphone valide (8 chiffres)" required><br></td>
+</tr>
+<tr>
+<td><label> mot de passe  :</label></td> 
+<td><input type="password" name="pass"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"><br></td>
+</tr>
+<tr>
+<td><button width="150" height="50">inscrire</button><br></td>
+</tr>
+</table>
+</form>
+<hr>
+<footer>
+    <p>vous pouver nous contacter par email :<a href="mailto:contact@esprit.tn" >contact@esprit.tn </a></p>
+    <p>adresse : Ghazela , tunis</p> <br>
+
+</footer>
+
+</header>
+</body>
+</html>
